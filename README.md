@@ -3,33 +3,33 @@ Cours de base pour les interactive media designer
 
 # Sommaire
 
-* [Démarrer](01.demarrer.md)
-* [L'essentiel](02.essentiel.md)
-* [Configuration](03.configuration.md)
-* [Introduction HTML](04.intro_html.md)
-* [Structure de base HTML](05.structure_html.md)
-* [Bonnes pratiques](06.bonne_pratiques.md)
-* [Balisage](07.balisage.md)
-* [Introduction CSS](08_introduction_css.md)
-* [Section sur les styles
-* [Mise en page du CSS
-* [Absolu et relatif
-* [Unités de mesure
-* [Section Expertise
-* [Position et transformation
-* [Travail de section
-* [Graphiques, images et vidéos
-* [Section Carrière
-* [Pseudo classes et pseudo éléments
-* [Outils pour les développeurs
-* [Pages détaillées
-* [Transitions & Animations
-* [Contact de la section
-* [Pied de page
-* [Javascript
-* [Polices Web
-* [Conception réactive
-* [Publier
-* [Valider et tester
-* [Fin et suite
+* [1 Démarrer](01.demarrer.md)
+* [2 L'essentiel](02.essentiel.md)
+* [3 Configuration](03.configuration.md)
+* [4 Introduction HTML](04.intro_html.md)
+* [5 Structure de base HTML](05.structure_html.md)
+* [6 Bonnes pratiques](06.bonne_pratiques.md)
+* [7 Balisage](07.balisage.md)
+* [8 Introduction CSS](08_introduction_css.md)
+* [9 Section sur les styles](01.demarrer.md)
+* [10 Mise en page du CSS](01.demarrer.md)
+* [11 Absolu et relatif](01.demarrer.md)
+* [12 Unités de mesure](01.demarrer.md)
+* [13 Section Expertise](01.demarrer.md)
+* [14 Position et transformation](01.demarrer.md)
+* [15 Travail de section](01.demarrer.md)
+* [16 Graphiques, images et vidéos](01.demarrer.md)
+* [17 Section Carrière](01.demarrer.md)
+* [18 Pseudo classes et pseudo éléments](01.demarrer.md)
+* [19 Outils pour les développeurs](01.demarrer.md)
+* [20 Pages détaillées](01.demarrer.md)
+* [21 Transitions & Animations](01.demarrer.md)
+* [22 Contact de la section](01.demarrer.md)
+* [23 Pied de page](01.demarrer.md)
+* [24 Javascript](01.demarrer.md)
+* [25 Polices Web](01.demarrer.md)
+* [26 Conception réactive](01.demarrer.md)
+* [27 Publier](01.demarrer.md)
+* [28 Valider et tester](01.demarrer.md)
+* [29 Fin et suite](01.demarrer.md)
 
