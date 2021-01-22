@@ -4,14 +4,14 @@ Cours de base pour les interactive media designer
 # Sommaire
 
 * [Démarrer](01.demarrer.md)
-* [Objectifs du cours](02_objectifs.md)
-* [Structure de ce guide](03_structure_et_guide.md)
-* [L'essentiel](04_essentiel.md)
-* [Configuration](05_configuration.md)
-* [Introduction HTML](06_intro_html.md)
-* [Structure de base HTML](07_structure_html.md)
-* [Bonnes pratiques](08_bonne_pratiques.md)
-* [Balisage](09_balisage.md)
+* [Objectifs du cours](02.objectifs.md)
+* [Structure de ce guide](03.structure_et_guide.md)
+* [L'essentiel](04.essentiel.md)
+* [Configuration](05.configuration.md)
+* [Introduction HTML](06.intro_html.md)
+* [Structure de base HTML](07.structure_html.md)
+* [Bonnes pratiques](08.bonne_pratiques.md)
+* [Balisage](09.balisage.md)
 * [Introduction CSS](10_introduction_css.md)
 * [Section sur les styles
 * [Mise en page du CSS
