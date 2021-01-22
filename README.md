@@ -12,7 +12,7 @@ Cours de base pour les interactive media designer
 * [7 Balisage](07.balisage.md)
 * [8 Introduction CSS](08_introduction_css.md)
 * [9 Styles](09.styles.md)
-* [10 Mise en page du CSS](10.mise_en_page.md)
+* [10 Layout CSS](10.mise_en_page.md)
 * [11 Absolu et relatif](11.absolut_relatif.md)
 * [12 Unités de mesure](12.unite_mesure.md)
 * [13 Section Expertise](13.expertise.md)
