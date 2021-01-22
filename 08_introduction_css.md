@@ -4,7 +4,7 @@
 [#](#syntaxe) Syntaxe
 -------------------
 
-Le HTML décrit la structure d'un site web et est comme le squelette d'un corps. Le CSS décrit l'apparence, le style de ces éléments HTML. Seul, sans HTML correspondant, le CSS ne fonctionne pas ! CSS signifie "Cascading Style Sheets" et est généralement lié à un fichier HTML en tant que fichier `.css` séparé.
+Le HTML décrit la structure d'un site web et est comme le squelette d'un body. Le CSS décrit l'apparence, le style de ces éléments HTML. Seul, sans HTML correspondant, le CSS ne fonctionne pas ! CSS signifie "Cascading Style Sheets" et est généralement lié à un fichier HTML en tant que fichier `.css` séparé.
 
 Dans la [Introduction HTML](../03_introduction_html), vous avez appris que les éléments HTML sont décrits par des balises, par exemple `<body>` ou `<div>` etc. et peuvent être complétés par `class` et `id`. En CSS, vous pouvez maintenant utiliser le **sélecteur** pour définir les éléments et les attributs du HTML qui doivent être sélectionnés et conçus.
 
@@ -57,7 +57,7 @@ Vous voulez colorier et mettre en gras une section de texte `<p>` dans un docume
 En CSS, on écrit :
 
     p {
-      couleur : tomate ;
+      color : tomate ;
       poids de la police : gras ;
     }
     
@@ -82,7 +82,7 @@ Le sélecteur de balises peut aussi parfois être très limitatif. Peut-être ne
 Au lieu de styliser la balise `p` très générique, vous pouvez affecter exclusivement les éléments HTML qui ont une classe spécifique avec mon style :
 
     .highlighted-text {
-      couleur : tomate ;
+      color : tomate ;
       poids de la police : gras ;
     }
     
@@ -101,7 +101,7 @@ Les ID ne doivent être utilisés en HTML que s'ils sont nécessaires pour les f
     
 
     #toutes les zones spécifiques {
-      couleur : tomate ;
+      color : tomate ;
       poids de la police : gras ;
     }
     
@@ -131,14 +131,14 @@ Maintenant, seuls les liens "a>" avec la classe "mis en évidence" devraient êt
     /* Le sélecteur CSS suivant serait utilisé pour sélectionner <p> et <a> */.
     
     .highlighted {
-      couleur : bleu royal ;
+      color : bleu royal ;
       style de police : italique ;
     }
     
     /* Avec le sélecteur CSS suivant, seul <a> avec la classe "surligné" serait sélectionné */
     
     a.highlighted {
-      couleur : tomate ;
+      color : tomate ;
     }
     
 
@@ -167,17 +167,17 @@ Vous pouvez styliser les éléments HTML s'ils ont une certaine combinaison de C
 
     .box {
       couleur de fond : blanc fumé ;
-      rembourrage : 1rem ;
+      padding : 1rem ;
       largeur de la bordure : 10px ;
-      style frontière : solide ;
+      style border : solide ;
       couleur de la bordure : bleu royal ;
-      couleur : noir ;
+      color : noir ;
       poids de la police : normal ;
     }
     
     .box.highlighted {
       couleur de la bordure : tomate ;
-      couleur : tomate ;
+      color : tomate ;
       poids de la police : gras ;
     }
     
@@ -243,10 +243,10 @@ Regardez le code suivant.
 
     .box {
       largeur : 300px ;
-      rembourrage : 1rem ;
+      padding : 1rem ;
       marge inférieure : 1rem ;
       largeur de la bordure : 10px ;
-      style frontière : solide ;
+      style border : solide ;
       couleur de la bordure : bleu royal ;
     }
     
