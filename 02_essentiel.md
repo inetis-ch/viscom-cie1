@@ -1,0 +1,84 @@
+[#](#basics) Basics
+===========================
+
+Avant de pouvoir construire un site web à partir de zéro, vous devez avoir une compréhension de base du fonctionnement de l'internet, ainsi que des connaissances des technologies et de la terminologie du web.
+
+[#](#évolution-applications) Évolution et applications
+---------------------------------------------------
+
+Tim Berners Lee et d'autres scientifiques ont jeté les bases du World Wide Web entre 1989 et 1992. L'Internet tel que nous le connaissons aujourd'hui. Ils ont développé toute une série de solutions techniques pour l'échange uniforme d'informations entre ordinateurs. Ainsi, le tout premier site web [info.cern.ch] (http://info.cern.ch) a été publié en 1992, et il est toujours en ligne (à peine modifié) aujourd'hui.
+
+Aujourd'hui, le terme "site web" a une signification très complexe. Par exemple, de nombreuses applications sur votre smartphone sont essentiellement des sites web, ou du moins utilisent des technologies web.
+
+Même de nombreuses applications logicielles traditionnelles sont de plus en plus concurrencées par des alternatives basées sur le web. Par exemple, Microsoft Word par Google Docs, Sketch par Figma, Playstation par Google Stadia, etc. Les astronautes d'une fusée SpaceX se sont même amarrés à la station spatiale internationale ISS avec des technologies web.
+
+Grâce à la puissance croissante des appareils et des connexions Internet, les applications sont presque infinies. Des simples blogs ou sites web d'entreprise aux expériences interactives, en passant par les jeux, les applications pour smartphones ou même les interfaces dans les voitures et les fusées. C'est donc un domaine passionnant pour se défouler en tant que designer.
+
+Tâche
+
+Faites une recherche sur quelques bons exemples de sites web ou d'applications qui illustrent l'évolution et les possibilités d'aujourd'hui, afin de pouvoir les présenter à la classe. **Collez vos liens et exemples dans [ce document Google] (https://docs.google.com/document/d/1wU4yvGQEvsfBD92WSAiMNyRIyLAy7lyBJoI4PP48UhA/edit)**
+
+[#](#infrastructure-architectures) Infrastructure & Architectures
+---------------------------------------------------------------
+
+### [#](#client-serveur) Client & Serveur
+
+Toutes les informations et les données qu'offre l'internet sont stockées quelque part. Habituellement, les serveurs s'occupent de cette tâche. Il s'agit essentiellement d'ordinateurs puissants qui sont constamment connectés à l'internet et peuvent accepter de nombreuses demandes en même temps. Tout ce qui envoie des requêtes à ces serveurs et attend une réponse est appelé un client.
+
+Supposons que vous vouliez visiter le site google.com. Le modèle de communication ressemblerait donc à ceci :
+
+Le client, par exemple votre navigateur Chrome ou Safari, envoie la demande de visite de google.com au serveur responsable. Le serveur traite la demande, recherche les données souhaitées dans sa mémoire (base de données, etc.) et les renvoie au client en guise de réponse. Votre client/navigateur interprète le code dans la réponse et le transpose en une représentation visuelle.
+
+### Statique et dynamique
+
+Lorsqu'on parle d'architecture de site web statique, cela signifie généralement que tout le code ainsi que le contenu sont stockés sur le serveur sous forme de fichiers "prêts à l'emploi". Si une telle page est visitée, le serveur n'a pas à faire de calculs complexes, mais renvoie simplement ces fichiers 1:1 au client / navigateur. Un tel site est donc généralement très rapide et sécurisé.
+
+Par exemple, ce guide ou le dossier d'exercices ont une architecture statique. Grâce à divers outils et utilitaires, l'approche statique est très populaire, surtout pour les petits sites. Cependant, dès qu'un site web doit être capable de traiter de grandes quantités de données ou des calculs complexes, cette approche présente certains inconvénients. Imaginez si Instagram enregistrait un fichier statique pour chaque poste. Ensuite, à chaque fois qu'un nouveau commentaire est ajouté, l'ensemble du fichier existant devra toujours être écrasé. Avec des millions d'utilisateurs et d'interactions par seconde, cela ne serait pas très efficace.
+
+Dans ce cas, il existe une architecture de site web dynamique. Ici, le code et le contenu sont séparés l'un de l'autre et ne sont assemblés dynamiquement que lorsque le site web est appelé. Le contenu est généralement stocké dans une base de données et les fichiers contiennent le code permettant de trouver et d'insérer ce contenu. Selon les besoins et le choix de la technologie, l'assemblage peut se faire sur le serveur ou directement dans le client.
+
+Tâche
+
+Faites des recherches sur des exemples descriptifs ou des graphiques pour pouvoir présenter ces principes à la classe. **Collez vos liens et exemples dans [ce document Google] (https://docs.google.com/document/d/1wU4yvGQEvsfBD92WSAiMNyRIyLAy7lyBJoI4PP48UhA/edit)**
+
+(Concepts-langues) Concepts et langues
+-------------------------------------------------------------
+
+### [#](#développement) Développement
+
+Le terme "développement" n'est pas seulement utilisé pour la programmation, mais aussi pour le développement de logiciels ou du web. Cependant, lorsque nous parlons de développement de logiciels ou de sites web, nous entendons le processus de conception, de spécification, de programmation, de test et de documentation du code.
+
+### [#](#sémantique-syntaxe) Sémantique et syntaxe
+
+La sémantique, en termes simples, est l'étude de la signification d'un mot ou même des différentes significations possibles d'un mot dans son contexte. Toutes les langues ont de telles règles sémantiques. Les langages de programmation ne sont pas différents. Seule une sémantique correcte permet à l'ordinateur de savoir ce que vous voulez qu'il fasse lorsqu'il lit votre code.
+
+La syntaxe régit la structure des énoncés dans une langue. Donc, dans quel ordre les expressions doivent se tenir pour avoir un sens. Ce concept se retrouve également dans la programmation. Votre code ne fonctionnera que si vous suivez les règles syntaxiques du langage de programmation respectif.
+
+### Logique, balisage, styles
+
+Vous pouvez écrire du code dans une variété de langues, mais toutes ne sont pas des langages de programmation. Fondamentalement, un langage de programmation est un langage capable d'effectuer des opérations et des calculs logiques. Les langages de programmation les plus connus sont Python, Java, PHP et JavaScript.
+
+Pour la création de votre portfolio, aucun langage de programmation n'est nécessaire au départ. Vous pouvez utiliser le langage de balisage HTML pour structurer votre page et le langage de feuille de style CSS pour concevoir le site web en conséquence.
+
+Tâche
+
+Recherchez des exemples ou des graphiques illustratifs afin de pouvoir présenter ces principes à la classe. **Collez vos liens et exemples dans [ce document Google] (https://docs.google.com/document/d/1wU4yvGQEvsfBD92WSAiMNyRIyLAy7lyBJoI4PP48UhA/edit)**
+
+[#](#sujets) Sujets
+-----------------------------
+
+### [#](#frontend) Frontend
+
+Un développeur frontal s'occupe toujours de la partie de la programmation qui nécessite une interface utilisateur visuelle. En amont, la programmation se fait en utilisant des technologies et des langages qu'un navigateur web comme Chrome, Safari etc. supporte. Donc HTML, CSS et JavaScript.
+
+### [#](#backend) Backend
+
+Le backend a tendance à s'occuper des processus en arrière-plan qui sont pour la plupart cachés aux utilisateurs finaux. Les développeurs de backend ont développé des éléments tels que la communication avec les bases de données, le traitement des éléments liés à la sécurité sur le serveur, et créent souvent des systèmes administratifs (par exemple un CMS comme Wordpress). En arrière-plan, nous pouvons travailler avec une variété de technologies et de langages, pour autant que le serveur web les prenne en charge ou ait été configuré pour le faire.
+
+### [#](#fullstack) Fullstack
+
+Aujourd'hui, il est difficile de définir clairement quelles tâches appartiennent au frontend et lesquelles au backend. Il y a de nombreux chevauchements et pour presque chaque tâche de programmation, il existe des solutions en amont mais aussi en aval. Cependant, on a tendance à déplacer de plus en plus la logique de programmation (par exemple, l'assemblage dynamique de pages en fonction de certaines conditions) de l'arrière vers l'avant. Le terme "développeur à part entière" sert de résumé pour les développeurs qui travaillent dans les deux disciplines.
+
+Tâche
+
+Recherchez brièvement des exemples descriptifs d'activités ou d'applications frontales et secondaires que vous pourrez ensuite présenter à la classe. **Collez vos liens et exemples dans [ce document Google] (https://docs.google.com/document/d/1wU4yvGQEvsfBD92WSAiMNyRIyLAy7lyBJoI4PP48UhA/edit)**.
