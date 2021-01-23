@@ -43,7 +43,7 @@ Grâce à la balise "link" de la section "head" de notre fichier HTML, vous pouv
 [#](#sélecteurs) Sélecteurs
 -------------------------
 
-! [Sélecteurs CSS](/assets/img/css-selectors.1f006427.png) Image : internetingishard.com
+![Sélecteurs CSS](https://github.com/inetis-ch/viscom-cie1/raw/main/asset/img/css-selectors.1f006427.png) Image : internetingishard.com
 
 ### [#](#tag-selector) Tag Selector
 
@@ -224,7 +224,7 @@ En termes simples, la cascade dans le CSS signifie que l'ordre des règles du CS
 
 Lorsque vous utilisez le CSS et le HTML, de nombreuses "boîtes" sont créées sur votre écran. Dans les CSS, une telle boîte peut avoir une largeur, une hauteur, un contour, une distance intérieure et extérieure.
 
-! [Modèle de boîte CSS](/assets/img/css-box-model.73a525e2.png) Image : internetingishard.com
+![Modèle de boîte CSS](https://github.com/inetis-ch/viscom-cie1/raw/main/asset/img/css-box-model.73a525e2.png) Image : internetingishard.com
 
 Imaginez une boîte de 500 pixels de large et 500 pixels de haut. Si vous ajoutez maintenant une "marge" (distance extérieure) de 10 pixels, les dimensions de la boîte passent à 510 pixels. Cela peut entraîner des effets secondaires désagréables dans la mise en page. Cependant, vous pouvez contrôler cela avec la propriété "box-sizing".
 
@@ -286,7 +286,7 @@ Content-box" ajoute les valeurs des propriétés "padding" et "border-width" à 
 
 La largeur de la "border-box" est de 300 pixels, ce qui est défini par le CSS. La largeur du contenu (dans ce cas le texte) n'est donc pas de 300 pixels **plus** `padding` et `border-width` comme dans l'exemple précédent, mais de 300 pixels **moins** les deux propriétés. La boîte fait donc 300 pixels de large au total, mais le contenu ne fait que 260 pixels.
 
-! [Box sizing](/assets/img/box-sizing-content-box.09f48a7d.png) Image : internetingishard.com
+![Box sizing](https://github.com/inetis-ch/viscom-cie1/raw/main/asset/img/box-sizing-content-box.09f48a7d.png) Image : internetingishard.com
 
 (les biens les plus importants) Les biens les plus importants
 -----------------------------------------------------------
