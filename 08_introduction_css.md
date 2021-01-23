@@ -312,7 +312,7 @@ La largeur de la "border-box" est de 300 pixels, ce qui est défini par le CSS. 
 
 Avec ces propriétés, vous pouvez déjà concevoir beaucoup de choses avec le CSS. Les possibilités sont presque illimitées, il est donc préférable de consulter la [Référence CSS](https://cssreference.io/) ou la [Feuille de calcul CSS](https://devhints.io/css) pour voir ce qui est possible. Au cours de ce cours, vous apprendrez à connaître d'autres propriétés.
 
-Liens
+:link: Liens
 
 * [Référence CSS avec exemples](https://cssreference.io/)
 * [Feuille de calcul CSS](https://devhints.io/css)
