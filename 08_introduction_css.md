@@ -30,7 +30,7 @@ Pour que le HTML et le CSS puissent se parler, vous devez lier votre fichier CSS
 
     <!doctype html>
     <html lang="en">
-      < tête>
+      <head>
         <link rel="stylesheet" type="text/css" href="css/style.css">
       </head>
     </html>
