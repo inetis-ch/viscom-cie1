@@ -1,5 +1,5 @@
 # Développement frontend
-Cours de base pour les interactive media designer
+Cours de base pour les interactive media designer VISCOM
 
 # Sommaire
 
