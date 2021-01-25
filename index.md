@@ -31,5 +31,5 @@ Cours de base pour les interactive media designer VISCOM
 * [26 Responsive](26.responsive.md)
 * [27 Publier en ligne](27.publier.md)
 * [28 Valider et tester](28.valider_tester.md)
-* [29 Fin et suite](29.fin.md)
+* [29 Présentation & suite](29.fin.md)
 
