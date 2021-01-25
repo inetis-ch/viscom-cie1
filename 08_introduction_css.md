@@ -13,9 +13,9 @@ Pour ce sélecteur, vous pouvez ensuite définir une **stylerule** (règle de st
 ### Exemple
 ```css
     selector {
-      property : value ;
-      property : value ;
-      propriété : valeur ;
+      property: value ;
+      property: value ;
+      propriété: valeur ;
     }
 ```
 
@@ -43,7 +43,7 @@ Grâce à la balise "link" de la section "head" de notre fichier HTML, vous pouv
 [#](#sélecteurs) Sélecteurs
 -------------------------
 
-![Sélecteurs CSS](https://github.com/inetis-ch/viscom-cie1/raw/main/asset/img/css-selectors.1f006427.png) Image : internetingishard.com
+![Sélecteurs CSS](https://github.com/inetis-ch/viscom-cie1/raw/main/asset/img/css-selectors.1f006427.png) Image: internetingishard.com
 
 ### [#](#tag-selector) Tag Selector
 
@@ -59,8 +59,8 @@ En CSS, on écrit :
 
 ```css
     p {
-      color : tomato ;
-      font-weight : bold ;
+      color: tomato ;
+      font-weight: bold ;
     }
 ```    
 
@@ -79,12 +79,12 @@ Au lieu de styliser la balise `p` très générique, vous pouvez affecter exclus
 
 ```css
     .highlighted-text {
-      color : tomato ;
-      font-weight : bold ;
+      color: tomato ;
+      font-weight: bold ;
     }
 ```    
 
-:memo: En CSS, une classe a toujours un point `.` devant le sélecteur, en HTML, on ne l'écrit pas. HTML : "ma-classe", CSS : ".ma-classe".
+:memo: En CSS, une classe a toujours un point `.` devant le sélecteur, en HTML, on ne l'écrit pas. HTML: "ma-classe", CSS: ".ma-classe".
 
 ### [#](#id-selector) ID selector
 
@@ -98,12 +98,12 @@ Les ID ne doivent être utilisés en HTML que s'ils sont nécessaires pour les f
 
 ```css
     #very-specific-area {
-      color : tomato ;
-      font-weight : bold ;
+      color: tomato ;
+      font-weight: bold ;
     }
 ```    
     
-:memo: En CSS, un ID a toujours un dièse "#" devant le sélecteur. En HTML, vous n'écrivez pas ce hachage. HTML : `my-id`, CSS : `#my-id`.
+:memo: En CSS, un ID a toujours un dièse "#" devant le sélecteur. En HTML, vous n'écrivez pas ce hachage. HTML: `my-id`, CSS: `#my-id`.
 
 [#](#selecteurs-combine) Combiner les sélecteurs
 -------------------------------------------------
@@ -131,14 +131,14 @@ Maintenant, seuls les liens "a>" avec la classe "mis en évidence" devraient êt
     /* Le sélecteur CSS suivant serait utilisé pour sélectionner <p> et <a> */.
     
     .highlighted {
-      color : bleu royal ;
-      style de police : italique ;
+      color: bleu royal ;
+      style de police: italique ;
     }
     
     /* Avec le sélecteur CSS suivant, seul <a> avec la classe "surligné" serait sélectionné */
     
     a.highlighted {
-      color : tomate ;
+      color: tomate ;
     }
 ```      
 
@@ -194,7 +194,7 @@ Le CSS suit trois concepts de base. [Spécificité](https://developer.mozilla.or
 
 La spécificité est un ensemble de règles que les navigateurs utilisent pour déterminer quelles sont les valeurs de propriété les plus importantes et qui sont appliquées, ou qui sont annulées.
 
-En règle générale, vous pouvez vous souvenir : Plus vous sélectionnez un élément HTML dans le CSS de manière spécifique et précise, plus il est probable que ces styles seront visibles. Par exemple, dans notre exemple, ".mon-style" sera remplacé par "a.mon-style" parce qu'il est plus spécifique.
+En règle générale, vous pouvez vous souvenir: Plus vous sélectionnez un élément HTML dans le CSS de manière spécifique et précise, plus il est probable que ces styles seront visibles. Par exemple, dans notre exemple, ".mon-style" sera remplacé par "a.mon-style" parce qu'il est plus spécifique.
 
 (### [#](#héritage) Héritage
 
@@ -209,7 +209,7 @@ En termes simples, la cascade dans le CSS signifie que l'ordre des règles du CS
 
 Lorsque vous utilisez le CSS et le HTML, de nombreuses "boîtes" sont créées sur votre écran. Dans les CSS, une telle boîte peut avoir une largeur, une hauteur, un contour, une distance intérieure et extérieure.
 
-![Modèle de boîte CSS](https://github.com/inetis-ch/viscom-cie1/raw/main/asset/img/css-box-model.73a525e2.png) Image : internetingishard.com
+![Modèle de boîte CSS](https://github.com/inetis-ch/viscom-cie1/raw/main/asset/img/css-box-model.73a525e2.png) Image: internetingishard.com
 
 Imaginez une boîte de 500 pixels de large et 500 pixels de haut. Si vous ajoutez maintenant une "marge" (distance extérieure) de 10 pixels, les dimensions de la boîte passent à 510 pixels. Cela peut entraîner des effets secondaires désagréables dans la mise en page. Cependant, vous pouvez contrôler cela avec la propriété "box-sizing".
 
@@ -260,11 +260,11 @@ La boîte A et la boîte B diffèrent en largeur, bien qu'une largeur fixe de 30
 
 #### [#](#pourquoi les boîtes sont-elles de largeur différente) Pourquoi les boîtes sont-elles de largeur différente ?
 
-Content-box" ajoute les valeurs des propriétés "padding" et "border-width" à la largeur de 300 pixels du contenu. Le fait que `padding : 10px;` et `border-width : 10px;` donne une largeur de 340 pixels - les valeurs des propriétés doivent être comptées deux fois, car elles sont appliquées sur les deux côtés.
+Content-box" ajoute les valeurs des propriétés "padding" et "border-width" à la largeur de 300 pixels du contenu. Le fait que `padding: 10px;` et `border-width: 10px;` donne une largeur de 340 pixels - les valeurs des propriétés doivent être comptées deux fois, car elles sont appliquées sur les deux côtés.
 
 La largeur de la "border-box" est de 300 pixels, ce qui est défini par le CSS. La largeur du contenu (dans ce cas le texte) n'est donc pas de 300 pixels **plus** `padding` et `border-width` comme dans l'exemple précédent, mais de 300 pixels **moins** les deux propriétés. La boîte fait donc 300 pixels de large au total, mais le contenu ne fait que 260 pixels.
 
-![Box sizing](https://github.com/inetis-ch/viscom-cie1/raw/main/asset/img/box-sizing-content-box.09f48a7d.png) Image : internetingishard.com
+![Box sizing](https://github.com/inetis-ch/viscom-cie1/raw/main/asset/img/box-sizing-content-box.09f48a7d.png) Image: internetingishard.com
 
 Propriétés importantes
 -----------------------------------------------------------
@@ -273,8 +273,8 @@ Propriétés importantes
 
 | Propriété | Signification |
 | --- | --- |
-| `display` | layout behavior of elements. Plus : [Mise en page CSS](/guide/09_css_layout/) |
-| `position` | positionnement des éléments. Plus : [Positionnement et chemins](/guide/11_chemins) |
+| `display` | layout behavior of elements. Plus: [Mise en page CSS](/guide/09_css_layout/) |
+| `position` | positionnement des éléments. Plus: [Positionnement et chemins](/guide/11_chemins) |
 | `margin` | distance d'un élément de bloc vers l'extérieur |
 | `padding` | distance d'un élément de bloc vers l'intérieur |
 | `border` | contour d'un élément de bloc |
