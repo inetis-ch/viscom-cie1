@@ -1,3 +1,5 @@
 title: VISCOM-CIE1
 theme: jekyll-theme-slate
 markdown: kramdown
+plugins:
+  - jemoji
