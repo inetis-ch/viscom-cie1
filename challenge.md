@@ -164,15 +164,5 @@ Difficulté : 4
 #](#_27-git-deployment) #27 GIT Deployment
 -------------------------------------------
 
-Défi : Déployez votre site web en utilisant le GIT. Difficulté : 4
+Défi : Déployez votre site web en utilisant GIT. Difficulté : 4
 
-[#](#_28-gestion du contenu) 28 Gestion du contenu
---------------------------------------------------
-
-Défi : Intégrer un CMS de votre choix afin de pouvoir gérer le texte et les images en dehors de la vue du code.  
-Niveau de difficulté : 5
-
-[#](#_29-likes) #29 Like
--------------------------
-
-Tâche : laissez les visiteurs "Liker" les messages sur votre site web. Veillez à ce qu'ils soient sauvegardés et additionnés. Difficulté : 5
