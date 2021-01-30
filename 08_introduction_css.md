@@ -131,14 +131,14 @@ Maintenant, seuls les liens "a>" avec la classe "mis en évidence" devraient êt
     /* Le sélecteur CSS suivant serait utilisé pour sélectionner <p> et <a> */.
     
     .highlighted {
-      color: bleu royal ;
+      color: royalblue ;
       style de police: italique ;
     }
     
     /* Avec le sélecteur CSS suivant, seul <a> avec la classe "surligné" serait sélectionné */
     
     a.highlighted {
-      color: tomate ;
+      color: tomato;
     }
 ```      
 
