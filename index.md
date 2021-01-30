@@ -22,7 +22,7 @@ Cours de base pour les interactive media designer VISCOM
 * [17 Section Carrière](17.carriere.md)
 * [18 Pseudo classes et pseudo éléments](18.pseudo_classes.md)
 * [19 Outils pour les développeurs](19.outils.md)
-* [20 Pages détaillées](20.page.md)
+* [20 Pages internes](20.page.md)
 * [21 Transitions & Animations](21.transitions_animations.md)
 * [22 Section Contact ](22.contact.md)
 * [23 Pied de page](23.pied.md)
