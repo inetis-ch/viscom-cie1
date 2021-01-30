@@ -13,9 +13,9 @@ Pour ce sélecteur, vous pouvez ensuite définir une **stylerule** (règle de st
 ### Exemple
 ```css
     selector {
-      property: value ;
-      property: value ;
-      propriété: valeur ;
+      property: value;
+      property: value;
+      propriété: valeur;
     }
 ```
 
@@ -59,8 +59,8 @@ En CSS, on écrit :
 
 ```css
     p {
-      color: tomato ;
-      font-weight: bold ;
+      color: tomato;
+      font-weight: bold;
     }
 ```    
 
@@ -79,8 +79,8 @@ Au lieu de styliser la balise `p` très générique, vous pouvez affecter exclus
 
 ```css
     .highlighted-text {
-      color: tomato ;
-      font-weight: bold ;
+      color: tomato;
+      font-weight: bold;
     }
 ```    
 
@@ -98,8 +98,8 @@ Les ID ne doivent être utilisés en HTML que s'ils sont nécessaires pour les f
 
 ```css
     #very-specific-area {
-      color: tomato ;
-      font-weight: bold ;
+      color: tomato;
+      font-weight: bold;
     }
 ```    
     
@@ -131,8 +131,8 @@ Maintenant, seuls les liens "a>" avec la classe "mis en évidence" devraient êt
     /* Le sélecteur CSS suivant serait utilisé pour sélectionner <p> et <a> */.
     
     .highlighted {
-      color: royalblue ;
-      style de police: italique ;
+      color: royalblue;
+      style de police: italique;
     }
     
     /* Avec le sélecteur CSS suivant, seul <a> avec la classe "surligné" serait sélectionné */
