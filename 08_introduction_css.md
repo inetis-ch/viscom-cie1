@@ -116,9 +116,7 @@ Le fichier HTML suivant doit être mis en forme.
     <p class="highlighted">
       Je suis une section de texte qui apparaît en surbrillance.
     </p>
-```
 
-```css
     <a class="highlighted" href="https://duckduckgo.com">
       Je suis un lien qui mène à un moteur de recherche.
     </a>
@@ -132,10 +130,10 @@ Maintenant, seuls les liens "a>" avec la classe "mis en évidence" devraient êt
     
     .highlighted {
       color: royalblue;
-      style de police: italique;
+      font-style: italic;
     }
     
-    /* Avec le sélecteur CSS suivant, seul <a> avec la classe "surligné" serait sélectionné */
+    /* Avec le sélecteur CSS suivant, seul <a> avec la classe "highlighted" serait sélectionné */
     
     a.highlighted {
       color: tomato;
