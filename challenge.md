@@ -161,8 +161,3 @@ Difficulté: 3
 Tâche: divisez votre portefeuille en modules, de sorte que vous puissiez modifier par exemple l'en-tête et le pied de page globalement, au lieu de répéter chaque page individuellement.  
 Difficulté: 4
 
-#](#_27-git-deployment) #27 GIT Deployment
--------------------------------------------
-
-Défi: Déployez votre site web en utilisant GIT. Difficulté: 4
-
