@@ -291,5 +291,5 @@ Avec ces propriétés, vous pouvez déjà concevoir beaucoup de choses avec le C
 :link: Liens
 
 * [Référence CSS avec exemples](https://cssreference.io/)
-* [Feuille de calcul CSS](https://devhints.io/css)
+* [Référence CSS compact](https://devhints.io/css)
 * [Exemple interactif des différences entre content-box et border-box](https://codepen.io/kilianso/full/GRoGNBy)
