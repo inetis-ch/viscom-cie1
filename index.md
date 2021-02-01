@@ -17,7 +17,7 @@ Intervenants: Mikhaél Minisini / apptitude.ch & Pierre-André Vullioud  / ineti
 * [4 Introduction HTML](04.intro_html.md)
 * [5 Structure de base HTML](05.structure_html.md)
 * [6 Bonnes pratiques](06.bonne_pratiques.md)
-* [7 Balisage](07.balisage.md)
+* [7 Section A Propos](07.balisage.md)
 * [8 Introduction CSS](08_introduction_css.md)
 * [9 Styles](09.styles.md)
 * [10 Layout CSS](10.mise_en_page.md)
