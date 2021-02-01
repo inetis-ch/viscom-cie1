@@ -41,5 +41,5 @@ Intervenants: Mikhaél Minisini / apptitude.ch & Pierre-André Vullioud  / ineti
 * [28 Valider et tester](28.valider_tester.md)
 * [29 Présentation & suite](29.fin.md)
 
-[Défis]challenge.md
+[Défis](challenge.md)
 
