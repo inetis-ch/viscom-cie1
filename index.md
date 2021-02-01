@@ -34,7 +34,7 @@ Intervenants: Mikhaél Minisini / apptitude.ch & Pierre-André Vullioud  / ineti
 * [21 Transitions & Animations](21.transitions_animations.md)
 * [22 Section Contact ](22.contact.md)
 * [23 Pied de page](23.pied.md)
-* [24 Javascript](24.javascript.md)
+* [24 Javascript](24.javascript.md) 
 * [25 Polices Web](25.polices.md)
 * [26 Responsive](26.responsive.md)
 * [27 Publier en ligne](27.publier.md)
