@@ -292,4 +292,3 @@ Avec ces propriétés, vous pouvez déjà concevoir beaucoup de choses avec le C
 
 * [Référence CSS avec exemples](https://cssreference.io/)
 * [Référence CSS compact](https://devhints.io/css)
-* [Exemple interactif des différences entre content-box et border-box](https://codepen.io/kilianso/full/GRoGNBy)
