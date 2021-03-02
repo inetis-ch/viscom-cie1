@@ -15,7 +15,7 @@ Pour ce sélecteur, vous pouvez ensuite définir une **stylerule** (règle de st
     selector {
       property: value;
       property: value;
-      propriété: valeur;
+      property: value;
     }
 ```
 
@@ -88,7 +88,7 @@ Au lieu de styliser la balise `p` très générique, vous pouvez affecter exclus
 
 ### [#](#id-selector) ID selector
 
-Les ID ne doivent être utilisés en HTML que s'ils sont nécessaires pour les formulaires ou les "ancres". Par exemple, un clic permet d'accéder à une zone spécifique d'une page web. La plupart du temps, cependant, les cours sont suffisants.
+Les ID ne doivent être utilisés en HTML que s'ils sont nécessaires pour les formulaires ou les "ancres". Par exemple, un clic permet d'accéder à une zone spécifique d'une page web. La plupart du temps, cependant, les classes sont suffisants.
 
 ```html
     <p id="very-specific-area">
@@ -123,7 +123,7 @@ Le fichier HTML suivant doit être mis en forme.
 ```    
     
 
-Maintenant, seuls les liens "a>" avec la classe "mis en évidence" devraient être affichés différemment.
+Maintenant, seuls les liens "<a" avec la classe "mis en évidence" devraient être affichés différemment.
 
 ```css
     /* Le sélecteur CSS suivant serait utilisé pour sélectionner <p> et <a> */.
@@ -166,7 +166,7 @@ Vous pouvez styliser les éléments HTML s'ils ont une certaine combinaison de C
       font-weight: normal;
     }
 
-    .box.hervorgehoben {
+    .box.highlighted {
       border-color: tomato;
       color: tomato;
       font-weight: bold;
@@ -194,7 +194,7 @@ La spécificité est un ensemble de règles que les navigateurs utilisent pour d
 
 En règle générale, vous pouvez vous souvenir: Plus vous sélectionnez un élément HTML dans le CSS de manière spécifique et précise, plus il est probable que ces styles seront visibles. Par exemple, dans notre exemple, ".mon-style" sera remplacé par "a.mon-style" parce qu'il est plus spécifique.
 
-(### [#](#héritage) Héritage
+### [#](#héritage) Héritage
 
 L'héritage signifie essentiellement que des valeurs peuvent être héritées d'un élément parent. Tout au long de ce cours, vous travaillerez avec ce principe.
 
@@ -211,7 +211,7 @@ Lorsque vous utilisez le CSS et le HTML, de nombreuses "boîtes" sont créées s
 
 Imaginez une boîte de 500 pixels de large et 500 pixels de haut. Si vous ajoutez maintenant une "marge" (distance extérieure) de 10 pixels, les dimensions de la boîte passent à 510 pixels. Cela peut entraîner des effets secondaires désagréables dans la mise en page. Cependant, vous pouvez contrôler cela avec la propriété "box-sizing".
 
-Pour faciliter la mise en page, il est utile de sélectionner un modèle de boîte uniforme et de l'appliquer à tous les éléments. Avec le sélecteur "*", vous pouvez influer sur cette situation. L'astérisque "*" indique au CSS que "cela affecte tout".
+Pour faciliter la mise en page, il est utile de sélectionner un modèle de boîte uniforme et de l'appliquer à tous les éléments. Avec le sélecteur "\*", vous pouvez influer sur cette situation. L'astérisque "\*" indique au CSS que "cela affecte tout".
 ```css
 * {
   box-sizing: border-box;
