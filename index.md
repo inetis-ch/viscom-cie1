@@ -7,7 +7,7 @@ Copyright VISCOM
 
 Intervenants: Mikhaél Minisini / apptitude.ch & Pierre-André Vullioud  / inetis.ch
 
-Cour au format PDF : https://drive.google.com/uc?id=1AaDB7_PbE5ojJOe3LTzEX8fmYkqlrSZT&export=download
+Cour au format PDF : https://drive.google.com/file/d/1h60gDGk0mRePBEeliwqEwPRyaL7kAgPK/view?usp=sharing
 
 
 # Sommaire
