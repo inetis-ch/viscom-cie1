@@ -1,13 +1,13 @@
 # Développement frontend
 Cours de base pour les interactives media designer VISCOM
 
-Cours traduits de https://imd.netlify.app
+Cours traduits de [https://imd.netlify.app](https://imd.netlify.app)
 
 Copyright VISCOM
 
 Intervenants: Mikhaél Minisini / apptitude.ch & Pierre-André Vullioud  / inetis.ch
 
-Cour au format PDF : https://drive.google.com/file/d/1h60gDGk0mRePBEeliwqEwPRyaL7kAgPK/view?usp=sharing
+Cour au format [https://drive.google.com/file/d/1h60gDGk0mRePBEeliwqEwPRyaL7kAgPK/view?usp=sharing](PDF)
 
 
 # Sommaire
