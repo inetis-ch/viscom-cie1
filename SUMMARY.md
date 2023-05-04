@@ -28,6 +28,6 @@
 * [26. Responsive Design](26.responsive.md)
 * [27. Publier](27.publier.md)
 * [28. Valider et tester](28.valider\_tester.md)
-* [29. End & Continued](29.fin.md)
+* [29. Fin et suite](29.fin.md)
 * [Défis](challenges.md)
 * [index](index.md)
