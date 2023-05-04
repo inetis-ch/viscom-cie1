@@ -61,4 +61,4 @@ Ce guide présente le code d'une manière visuellement différente du texte ordi
 
 Nous utilisons cette icône dans le texte pour distinguer les informations des tâches. De cette façon, vous pouvez toujours voir immédiatement pour chaque chapitre quelles parties sont nécessaires pour créer le portfolio.
 
-:hammer\_pick: Une action a effectué |
+:hammer\_pick: Une action a effectuer
