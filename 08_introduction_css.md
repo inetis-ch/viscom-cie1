@@ -292,3 +292,4 @@ Avec ces propriétés, vous pouvez déjà concevoir beaucoup de choses avec le C
 
 * [Référence CSS avec exemples](https://cssreference.io/)
 * [Référence CSS compact](https://devhints.io/css)
+* [Exercices CSS](https://www.codingame.com/playgrounds/36092/exercices-css/introduction)
