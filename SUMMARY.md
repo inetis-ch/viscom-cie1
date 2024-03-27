@@ -12,6 +12,7 @@
 * [10. Mise en page CSS](10.mise\_en\_page.md)
 * [11. Absolu & Relatif](11.absolut\_relatif.md)
 * [12. Unités de mesure CSS](12.unite\_mesure.md)
+* [12bis. Les variables](12bis.variables.md)
 * [13. Section Expertise](13.expertise.md)
 * [14. Position & Transformation](14.postion\_transformation.md)
 * [15. Travail](15.experience.md)
