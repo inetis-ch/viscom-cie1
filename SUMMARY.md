@@ -1,8 +1,9 @@
 # Table of contents
 
+* [README](README.md)
 * [Porfolio](structure.md)
 * [Aide mémoire](aide-memoire.md)
-* [1 Démarrer](./)
+* [1 Démarrer](1-demarrer.md)
 * [2 L'essentiel](02.essentiel.md)
 * [3 Configuration](03.configuration.md)
 * [4 Introduction HTML](04.intro\_html.md)
@@ -16,7 +17,7 @@
 * [12 Unités de mesure](12.unite\_mesure.md)
 * [13 Section Expertise](13.expertise.md)
 * [14 Position et transformation](14.postion\_transformation.md)
-* [15 Section expérience](15.experience.md)
+* [15 Section expérience](15-section-experience.md)
 * [16 Graphiques, images et vidéos](16.images\_videos.md)
 * [18 Pseudo classes et pseudo éléments](18.pseudo\_classes.md)
 * [19 Outils pour les développeurs](19.outils.md)

@@ -1,6 +1,8 @@
+# Porfolio
 
-# Structure HTML et CSS d'un Portfolio
+## Structure HTML et CSS d'un Portfolio
 
+{% code title="index.html" overflow="wrap" lineNumbers="true" %}
 ```html
 <!DOCTYPE html>
 <html lang="fr">
@@ -107,12 +109,14 @@
 </footer>
 </body>
 ```
+{% endcode %}
 
-## Structure de base
+### Structure de base
 
 Dans ce document HTML, plusieurs sections et éléments sont utilisés pour structurer un site web, typiquement un portfolio. Voici une explication détaillée pour chacune des parties principales du document :
 
-### Structure des fichiers
+#### Structure des fichiers
+
 ```md
 portfolio
 ├── css
@@ -126,20 +130,25 @@ portfolio
 └─- index.html
 ```
 
-### 1. Document Type Declaration (Doctype)
+#### 1. Document Type Declaration (Doctype)
+
 ```html
 <!DOCTYPE html>
 ```
-- Ceci déclare le type de document, ici un document HTML5. Cette déclaration est nécessaire pour que le navigateur interprète correctement la page comme du HTML5.
 
-### 2. Tag `<html>`
+* Ceci déclare le type de document, ici un document HTML5. Cette déclaration est nécessaire pour que le navigateur interprète correctement la page comme du HTML5.
+
+#### 2. Tag `<html>`
+
 ```html
 <html lang="fr">
 ```
-- L'élément racine `<html>` contient tout le contenu de votre page web. 
-- `lang="fr"` spécifie que le contenu de la page est principalement en français, aidant les moteurs de recherche et les technologies d'assistance à comprendre la langue utilisée.
 
-### 3. Section `<head>`
+* L'élément racine `<html>` contient tout le contenu de votre page web.
+* `lang="fr"` spécifie que le contenu de la page est principalement en français, aidant les moteurs de recherche et les technologies d'assistance à comprendre la langue utilisée.
+
+#### 3. Section `<head>`
+
 ```html
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -149,25 +158,32 @@ portfolio
     <title>Portfolio</title>
 </head>
 ```
-- `<meta name="viewport">` : Configurer la zone d'affichage pour les appareils mobiles, assurant la responsivité.
-- `<link rel="stylesheet">` : Lie des feuilles de style CSS externes à la page pour la mise en forme.
-- `<link>` pour les polices Google : Importe des polices externes pour une utilisation dans le style de la page.
-- `<title>` : Définit le titre du document, qui apparaît dans l'onglet du navigateur.
 
-### 4. Section `<body>`
+* `<meta name="viewport">` : Configurer la zone d'affichage pour les appareils mobiles, assurant la responsivité.
+* `<link rel="stylesheet">` : Lie des feuilles de style CSS externes à la page pour la mise en forme.
+* `<link>` pour les polices Google : Importe des polices externes pour une utilisation dans le style de la page.
+* `<title>` : Définit le titre du document, qui apparaît dans l'onglet du navigateur.
+
+#### 4. Section `<body>`
+
 Tout le contenu visible de la page est placé ici :
 
-#### a. `<header>`
+**a. `<header>`**
+
 Contient la barre de navigation et le logo, utilisant une structure de classe flexible pour l'alignement :
+
 ```html
 <header>
     <div class="container">...</div>
 </header>
 ```
-- La navigation permet de relier différentes sections de la page, comme le Blog, les Services etc.
 
-#### b. `<main>`
+* La navigation permet de relier différentes sections de la page, comme le Blog, les Services etc.
+
+**b. `<main>`**
+
 C'est la partie principale du contenu où différentes sections du portfolio sont détaillées :
+
 ```html
 <main>
     <section id="hero">...</section>
@@ -175,20 +191,22 @@ C'est la partie principale du contenu où différentes sections du portfolio son
     <section id="services">...</section>
 </main>
 ```
-- Chaque `section` possède un identifiant unique pour la navigation et la structuration, avec des contenus tels que des images, des textes, et des liens pour télécharger un CV.
 
-### 5. `<footer>`
+* Chaque `section` possède un identifiant unique pour la navigation et la structuration, avec des contenus tels que des images, des textes, et des liens pour télécharger un CV.
+
+#### 5. `<footer>`
+
 ```html
 <footer>
     &copy; 2024 Les pieds dans le plat
 </footer>
 ```
-- Contient des droits d'auteur. Utilise l'entité `&copy;` pour afficher le symbole du copyright.
 
-## Fichier CSS principal
+* Contient des droits d'auteur. Utilise l'entité `&copy;` pour afficher le symbole du copyright.
 
+### Fichier CSS principal
 
-
+{% code lineNumbers="true" %}
 ```css
 /* Importation des fichiers */
 @import 'utilities.css';
@@ -236,11 +254,13 @@ footer {
 }
 
 ```
+{% endcode %}
 
-## Fichier utilitaire CSS
+### Fichier utilitaire CSS
 
-Un fichier utilitaire CSS, souvent appelé "fichier de classes utilitaires" ou "helpers", est utilisé pour fournir des classes réutilisables qui facilitent la mise en forme standardisée à travers les diverses parties d'un site web. 
+Un fichier utilitaire CSS, souvent appelé "fichier de classes utilitaires" ou "helpers", est utilisé pour fournir des classes réutilisables qui facilitent la mise en forme standardisée à travers les diverses parties d'un site web.
 
+{% code title="utilities.css" overflow="wrap" lineNumbers="true" %}
 ```css
 .flex {
 display: flex;
@@ -311,34 +331,28 @@ background: var(--primary);
 color: var(--secondary);
 }
 ```
+{% endcode %}
 
-### Signification du contenu du fichier utilitaire
+#### Signification du contenu du fichier utilitaire
 
 Chaque classe dans ce fichier utilitaire sert un objectif spécifique de mise en page ou de décoration. Voici ce que chaque classe fait:
 
-- `.flex` : Met en place un conteneur flex. Ce mode de mise en page est utilisé pour créer des designs flexibles et réactifs en permettant aux enfants de s’adapter dynamiquement à l’espace disponible.
-
-- `.items-centre` : Centre verticalement les éléments dans un conteneur flex.
-
-- `.justify-between` : Dispose les éléments en justifiant l'espace entre eux dans un conteneur flex.
-
-- `.justify-center` : Centre les éléments horizontalement dans un conteneur flex.
-
-- `.justify-right` : Alignes les éléments à droite dans un conteneur flex.
-
-- `.btn` : Style de base pour les boutons, incluant des propriétés de dimension, de police, de bordure, et d'interaction comme le pointeur et les transitions pour les interactions de survol.
-
-- `.btn-primary` et `.btn-secondary` : Variantes pour les boutons qui modifient l’apparence pour les états normaux et de survol, en utilisant les variables CSS pour les couleurs qui doivent être définies autre part dans le CSS (par exemple, dans les :root ou dans un autre fichier de variables).
-
-- `.flex-1` : Attribut à un élément un facteur de flexibilité de `1`, lui permettant d'occuper l'espace disponible dans un conteneur flex en proportion avec d'autres éléments flexibles ayant aussi cette classe.
+* `.flex` : Met en place un conteneur flex. Ce mode de mise en page est utilisé pour créer des designs flexibles et réactifs en permettant aux enfants de s’adapter dynamiquement à l’espace disponible.
+* `.items-centre` : Centre verticalement les éléments dans un conteneur flex.
+* `.justify-between` : Dispose les éléments en justifiant l'espace entre eux dans un conteneur flex.
+* `.justify-center` : Centre les éléments horizontalement dans un conteneur flex.
+* `.justify-right` : Alignes les éléments à droite dans un conteneur flex.
+* `.btn` : Style de base pour les boutons, incluant des propriétés de dimension, de police, de bordure, et d'interaction comme le pointeur et les transitions pour les interactions de survol.
+* `.btn-primary` et `.btn-secondary` : Variantes pour les boutons qui modifient l’apparence pour les états normaux et de survol, en utilisant les variables CSS pour les couleurs qui doivent être définies autre part dans le CSS (par exemple, dans les :root ou dans un autre fichier de variables).
+* `.flex-1` : Attribut à un élément un facteur de flexibilité de `1`, lui permettant d'occuper l'espace disponible dans un conteneur flex en proportion avec d'autres éléments flexibles ayant aussi cette classe.
 
 L'utilisation de ces classes à travers le HTML augmente l'efficacité du développement et assure que les styles sont uniformément appliqués, renforçant ainsi la consistance visuelle à travers le site web.
 
+### Header
 
-## Header
+#### Code HTML de la Section Header:
 
-
-### Code HTML de la Section Header:
+{% code lineNumbers="true" %}
 ```html
 <header>
     <div class="container">
@@ -361,8 +375,11 @@ L'utilisation de ces classes à travers le HTML augmente l'efficacité du dével
     </div>
 </header>
 ```
+{% endcode %}
 
-## CSS a ajouté dans le fichier `styles.css`:
+### CSS a ajouté dans le fichier `styles.css`:
+
+{% code lineNumbers="true" %}
 ```css
 header {
     background-color: var(--bgDark);
@@ -391,30 +408,39 @@ header nav .logo {
     margin-right: 3rem;
 }
 ```
-### Explication des éléments:
+{% endcode %}
 
-#### 1. Tag `<header>`:
-- Le tag `<header>` agit comme un conteneur pour les contenus introductifs ou les éléments de navigation. C'est un élément sémantique qui indique que le contenu à l'intérieur est en rapport avec l'introduction ou la navigation du site web.
+#### Explication des éléments:
 
-#### 2. Conteneur Principal (`<div class="container">`):
-- **`class="container"`**: Ce div sert de conteneur avec une largeur maximale et un centrage adaptatifs, assurant que le contenu de l'en-tête reste centré et esthétiquement disposé.
+**1. Tag `<header>`:**
 
-#### 3. Navigation (`<nav class="flex items-centre justify-between">`):
-- **`class="flex items-centre justify-between"`** : Le `nav` utilise Flexbox pour un layout flexible des éléments intérieurs. Les enfants directs sont positionnés de sorte qu'il y ait un espace entre chaque élément (`justify-between`) et qu'ils soient alignés verticalement au centre (`items-centre`).
+* Le tag `<header>` agit comme un conteneur pour les contenus introductifs ou les éléments de navigation. C'est un élément sémantique qui indique que le contenu à l'intérieur est en rapport avec l'introduction ou la navigation du site web.
 
-#### 4. Partie Gauche du Menu (`<div class="left flex justfiy-right">`):
-- **`class="left flex justify-right"`** Contient le logo et la navigation principale.
-  - **Logo** (`<div class="logo"><img src="./images/logo.png" alt="logo">`): Logotype du site, essentiel pour la marque. L'image est destinée à être reconnue facilement et à renforcer l'identité visuelle.
-  - **Liens de Navigation** : Liens interactifs (`<a>`) qui dirigent vers différentes sections du site (Accueil, À Propos, Services, Blog). Ces liens sont sans soulignement (`text-decoration: none`), transformés en majuscules (`text-transform: uppercase`) et changent de couleur lorsqu'ils sont survolés.
+**2. Conteneur Principal (`<div class="container">`):**
 
-#### 5. Partie Droite du Menu (`<div class="right">`):
-- **`<button class="btn btn-primary">Contact</button>`**: Un bouton pour contact ou action principale, stylisé par les classes `btn` et `btn-primary` qui contrôlent l’apparence visuelle du bouton, rendant celui-ci immédiatement identifiable comme un appel à l'action.
+* **`class="container"`**: Ce div sert de conteneur avec une largeur maximale et un centrage adaptatifs, assurant que le contenu de l'en-tête reste centré et esthétiquement disposé.
 
-## Section hero
+**3. Navigation (`<nav class="flex items-centre justify-between">`):**
+
+* **`class="flex items-centre justify-between"`** : Le `nav` utilise Flexbox pour un layout flexible des éléments intérieurs. Les enfants directs sont positionnés de sorte qu'il y ait un espace entre chaque élément (`justify-between`) et qu'ils soient alignés verticalement au centre (`items-centre`).
+
+**4. Partie Gauche du Menu (`<div class="left flex justfiy-right">`):**
+
+* **`class="left flex justify-right"`** Contient le logo et la navigation principale.
+  * **Logo** (`<div class="logo"><img src="./images/logo.png" alt="logo">`): Logotype du site, essentiel pour la marque. L'image est destinée à être reconnue facilement et à renforcer l'identité visuelle.
+  * **Liens de Navigation** : Liens interactifs (`<a>`) qui dirigent vers différentes sections du site (Accueil, À Propos, Services, Blog). Ces liens sont sans soulignement (`text-decoration: none`), transformés en majuscules (`text-transform: uppercase`) et changent de couleur lorsqu'ils sont survolés.
+
+**5. Partie Droite du Menu (`<div class="right">`):**
+
+* **`<button class="btn btn-primary">Contact</button>`**: Un bouton pour contact ou action principale, stylisé par les classes `btn` et `btn-primary` qui contrôlent l’apparence visuelle du bouton, rendant celui-ci immédiatement identifiable comme un appel à l'action.
+
+### Section hero
 
 La section "hero", souvent appelée la bannière ou "hero image", est essentielle dans de nombreux sites Web modernes, spécialement les portfolios ou les sites de présentation, car elle capte l’attention de l'utilisateur dès son arrivée sur le site. Voici une analyse détaillée de cette section :
 
-### Code HTML
+#### Code HTML
+
+{% code lineNumbers="true" %}
 ```html
 <section id="hero" class="hero flex items-centre justify-between">
     <div class="left flex-1 justify-center">
@@ -434,8 +460,11 @@ La section "hero", souvent appelée la bannière ou "hero image", est essentiell
     </div>
 </section>
 ```
-### Code CSS
+{% endcode %}
 
+#### Code CSS
+
+{% code lineNumbers="true" %}
 ```css
 #hero {
   padding-top: 2rem;
@@ -478,40 +507,43 @@ La section "hero", souvent appelée la bannière ou "hero image", est essentiell
   color: var(--primary);
 }
 ```
+{% endcode %}
 
-### Explication des éléments:
+#### Explication des éléments:
 
-#### 1. Tag `<section>`:
-- **`<section id="hero" class="flex items-centre justify-between">`**: 
-  - **id="hero"**: L'identifiant "hero" est utilisé pour le ciblage par des liens internes.
-  - **class="flex items-centre justify-between"**: Les classes appliquées ici sont  utilisées pour le positionnement et l'alignement des éléments à l'intérieur de la section avec CSS flexbox. 
-    - **"flex"** active flexbox, un modèle de layout CSS conçu pour structurer les éléments de manière efficace même quand leurs tailles sont inconnues ou dynamiques.
-    - **"items-centre"** et **"justify-between"** sont des propriétés flexbox qui alignent les éléments verticalement au centre et distribuent l’espace entre les enfants horizontalement.
+**1. Tag `<section>`:**
 
-#### 2. Division Gauche
-- **`<div class="left flex-1 justify-center">`**:
-  - **class="left flex-1 justify-center"**: 
-    - **"left"** est utilisée pour spécifier des styles.
-    - **"flex-1"** attribue une croissance flexible, permettant à cet élément de prendre tout l'espace disponible.
-    - **"justify-center"** centre les éléments (ici l'image) dans le conteneur flex sur l'axe principal.
-  - **`<img src="./images/portrait.png" alt="Profile">`**: Affiche une image de profil, avec un chemin relatif et une description alternative pour l'accessibilité et le SEO.
+* **`<section id="hero" class="flex items-centre justify-between">`**:
+  * **id="hero"**: L'identifiant "hero" est utilisé pour le ciblage par des liens internes.
+  * **class="flex items-centre justify-between"**: Les classes appliquées ici sont utilisées pour le positionnement et l'alignement des éléments à l'intérieur de la section avec CSS flexbox.
+    * **"flex"** active flexbox, un modèle de layout CSS conçu pour structurer les éléments de manière efficace même quand leurs tailles sont inconnues ou dynamiques.
+    * **"items-centre"** et **"justify-between"** sont des propriétés flexbox qui alignent les éléments verticalement au centre et distribuent l’espace entre les enfants horizontalement.
 
-#### 3. Division Droite
-- **`<div class="right flex-1">`**:
-  - **class="right flex-1"**: Semblable à la div gauche, cette classe permet à cet élément de s'étendre également.
-  - **`<h1>Pierre-André Vullioud</h1>`**: titre principal
-  - **`<h2>Je suis un<br><span>Developeur</span></h2>`**:
-    - **`<br>`**: Saut de ligne pour une meilleure présentation du texte.
-    - **`<span>`**: Utilisé pour appliquer un style ou autre spécificité via CSS à une partie du titre.
-  - **`<p>`**: Un paragraphe de text
-  - **`<div>`** contenant **`<a>`** et **`<button>`**: Un bouton pour télécharger le CV, 
+**2. Division Gauche**
 
+* **`<div class="left flex-1 justify-center">`**:
+  * **class="left flex-1 justify-center"**:
+    * **"left"** est utilisée pour spécifier des styles.
+    * **"flex-1"** attribue une croissance flexible, permettant à cet élément de prendre tout l'espace disponible.
+    * **"justify-center"** centre les éléments (ici l'image) dans le conteneur flex sur l'axe principal.
+  * **`<img src="./images/portrait.png" alt="Profile">`**: Affiche une image de profil, avec un chemin relatif et une description alternative pour l'accessibilité et le SEO.
 
+**3. Division Droite**
 
+* **`<div class="right flex-1">`**:
+  * **class="right flex-1"**: Semblable à la div gauche, cette classe permet à cet élément de s'étendre également.
+  * **`<h1>Pierre-André Vullioud</h1>`**: titre principal
+  * **`<h2>Je suis un<br><span>Developeur</span></h2>`**:
+    * **`<br>`**: Saut de ligne pour une meilleure présentation du texte.
+    * **`<span>`**: Utilisé pour appliquer un style ou autre spécificité via CSS à une partie du titre.
+  * **`<p>`**: Un paragraphe de text
+  * **`<div>`** contenant **`<a>`** et **`<button>`**: Un bouton pour télécharger le CV,
 
-## Section About
+### Section About
 
-### Code HTML
+#### Code HTML
+
+{% code lineNumbers="true" %}
 ```html
 <section id="about">
     <div class="container flex items-centre">
@@ -534,8 +566,11 @@ La section "hero", souvent appelée la bannière ou "hero image", est essentiell
     </div>
 </section>
 ```
-### Code CSS
+{% endcode %}
 
+#### Code CSS
+
+{% code lineNumbers="true" %}
 ```css
 #about h2 {
     margin-bottom: 1rem;
@@ -580,34 +615,41 @@ La section "hero", souvent appelée la bannière ou "hero image", est essentiell
     width: 100%;
 }
 ```
+{% endcode %}
 
-### Explication des éléments:
+#### Explication des éléments:
 
-#### 1. Tag `<section>`:
-- **`<section id="about">`**:
-  - **id="about"**: Identifiant unique pour cette section permettant un ciblage spécifique via CSS/JavaScript ou des liens internes.
+**1. Tag `<section>`:**
 
-#### 2. Conteneur principal (`<div class="container flex items-centre">`):
-- **class="container flex items-centre"**:
-  - **"container"** est généralement utilisé dans le design web pour indiquer un conteneur qui enveloppe son contenu dans une largeur maximale spécifique, facilitant ainsi un layout cohérent et centré.
-  - **"flex"** et **"items-centre"** sont des classes de Flexbox utilisées pour aligner horizontalement tous les enfants (éléments internes) au centre de la section.
+* **`<section id="about">`**:
+  * **id="about"**: Identifiant unique pour cette section permettant un ciblage spécifique via CSS/JavaScript ou des liens internes.
 
-#### 3. Division Gauche (Left division):
-- **`<div class="left flex-1">`**:
-  - **"flex-1"** permet à ce bloc de s'adapter et d'occuper tout l'espace disponible en proportion avec les autres éléments flexibles dans le conteneur.
-  - **`<h2>A propos de <span>moi</span></h2>`**: Titre principal pour la section, avec une partie ("moi") mise en valeur via un style différent grâce à l'élément `<span>`.
-  - **`<p>`**: Paragraphes de texte offrant un aperçu biographique ou professionnel. Le contenu factice "Lorem ipsum" est utilisé ici en place du vrai texte.
-  - **`<div class="flex socials">`**: Offre des liens vers des profils de médias sociaux, intégrant les icônes dans un conteneur avec une propriété flex pour une disposition alignée et responsive.
-    - **`<a>`** avec **`<img>`**: Liens vers des réseaux sociaux avec des images servant d'icônes.
+**2. Conteneur principal (`<div class="container flex items-centre">`):**
 
-#### 4. Division Droite (Right division):
-- **`<div class="right flex-1 justify-right">`**:
-  - **"justify-right"** suggère une mise en page où le contenu (ici, une image) est justifié à droite du conteneur flex.
-  - **`<img src="./images/portrait2.png" height="400px" alt="profile pic">`**: Image de profil, probablement différente de celle dans la section "hero", offrant un aperçu plus formel ou alternatif de l'individu.
+* **class="container flex items-centre"**:
+  * **"container"** est généralement utilisé dans le design web pour indiquer un conteneur qui enveloppe son contenu dans une largeur maximale spécifique, facilitant ainsi un layout cohérent et centré.
+  * **"flex"** et **"items-centre"** sont des classes de Flexbox utilisées pour aligner horizontalement tous les enfants (éléments internes) au centre de la section.
 
-## Services
+**3. Division Gauche (Left division):**
 
-### Code HTML
+* **`<div class="left flex-1">`**:
+  * **"flex-1"** permet à ce bloc de s'adapter et d'occuper tout l'espace disponible en proportion avec les autres éléments flexibles dans le conteneur.
+  * **`<h2>A propos de <span>moi</span></h2>`**: Titre principal pour la section, avec une partie ("moi") mise en valeur via un style différent grâce à l'élément `<span>`.
+  * **`<p>`**: Paragraphes de texte offrant un aperçu biographique ou professionnel. Le contenu factice "Lorem ipsum" est utilisé ici en place du vrai texte.
+  * **`<div class="flex socials">`**: Offre des liens vers des profils de médias sociaux, intégrant les icônes dans un conteneur avec une propriété flex pour une disposition alignée et responsive.
+    * **`<a>`** avec **`<img>`**: Liens vers des réseaux sociaux avec des images servant d'icônes.
+
+**4. Division Droite (Right division):**
+
+* **`<div class="right flex-1 justify-right">`**:
+  * **"justify-right"** suggère une mise en page où le contenu (ici, une image) est justifié à droite du conteneur flex.
+  * **`<img src="./images/portrait2.png" height="400px" alt="profile pic">`**: Image de profil, probablement différente de celle dans la section "hero", offrant un aperçu plus formel ou alternatif de l'individu.
+
+### Services
+
+#### Code HTML
+
+{% code lineNumbers="true" %}
 ```html
 <section id="services">
     <div class="container">
@@ -633,8 +675,11 @@ La section "hero", souvent appelée la bannière ou "hero image", est essentiell
     </div>
 </section>
 ```
+{% endcode %}
 
-### Code CSS
+#### Code CSS
+
+{% code lineNumbers="true" %}
 ```css
 /*services section*/
 #services {
@@ -711,38 +756,45 @@ La section "hero", souvent appelée la bannière ou "hero image", est essentiell
     color: var(--white);
 }
 ```
+{% endcode %}
 
-### Explication des éléments:
+#### Explication des éléments:
 
-#### 1. Tag `<section>`:
-- **`<section id="services">`**:
-  - **id="services"**: Un identifiant unique pour permettre un ciblage spécifique, que ce soit par des feuilles de style CSS ou pour des liens internes.
+**1. Tag `<section>`:**
 
-#### 2. Conteneur principal (`<div class="container">`):
-- **class="container"**: Utilisé pour centrer le contenu et le maintenir dans une largeur maximale.
+* **`<section id="services">`**:
+  * **id="services"**: Un identifiant unique pour permettre un ciblage spécifique, que ce soit par des feuilles de style CSS ou pour des liens internes.
 
-#### 3. Titre de la section:
-- **`<h2 class="services-head">Mes Services</h2>`**:
-  - **class="services-head"**: Classe CSS qui utilisée pour appliquer des styles spécifiques au titre.
+**2. Conteneur principal (`<div class="container">`):**
 
-#### 4. Description des services:
-- **`<p>`**: Paragraphe de texte
+* **class="container"**: Utilisé pour centrer le contenu et le maintenir dans une largeur maximale.
 
-#### 5. Grille de cartes (`<div class="card-grid">`):
-- **class="card-grid"**: Utilisé pour définir un layout en grille
+**3. Titre de la section:**
 
-### Cartes individuelles de services:
+* **`<h2 class="services-head">Mes Services</h2>`**:
+  * **class="services-head"**: Classe CSS qui utilisée pour appliquer des styles spécifiques au titre.
+
+**4. Description des services:**
+
+* **`<p>`**: Paragraphe de texte
+
+**5. Grille de cartes (`<div class="card-grid">`):**
+
+* **class="card-grid"**: Utilisé pour définir un layout en grille
+
+#### Cartes individuelles de services:
+
 Chaque carte (élément `<div class="card">`) représente un service spécifique.
 
-- **Images (`<img src="...">`)**: Chacune illustre le service offert. Les images sont des symboles
-- **Titres de service (`<h2>`)**: Ils indiquent le type de service proposé.
-- **Descriptions (`<p>`)**: paragraphe
+* **Images (`<img src="...">`)**: Chacune illustre le service offert. Les images sont des symboles
+* **Titres de service (`<h2>`)**: Ils indiquent le type de service proposé.
+* **Descriptions (`<p>`)**: paragraphe
 
 Mise en page classique en card
 
+## Fichier CSS styles.css complet
 
-# Fichier CSS styles.css complet
-
+{% code title="styles.css" overflow="wrap" lineNumbers="true" %}
 ```css
 /* Importation des fichiers */
 @import 'utilities.css';
@@ -981,3 +1033,4 @@ footer {
     border-top: 2px solid var(--primary);
 }
 ```
+{% endcode %}
