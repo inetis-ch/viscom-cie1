@@ -12,9 +12,12 @@ Intervenants: Pierre-André Vullioud / inetis.ch
 
 Version en ligne : [https://cmspilot.gitbook.io/viscom-cie1/](https://cmspilot.gitbook.io/viscom-cie1/)
 
-Cour au format [https://drive.google.com/file/d/1h60gDGk0mRePBEeliwqEwPRyaL7kAgPK/view?usp=sharing](PDF/)
 
 ## Sommaire
+
+* [Porfolio](structure.md)
+* [Aide mémoire](aide-memoire.md)
+
 
 * [1 Démarrer](./)
 * [2 L'essentiel](02.essentiel.md)
@@ -22,7 +25,7 @@ Cour au format [https://drive.google.com/file/d/1h60gDGk0mRePBEeliwqEwPRyaL7kAgP
 * [4 Introduction HTML](04.intro\_html.md)
 * [5 Structure de base HTML](05.structure\_html.md)
 * [6 Bonnes pratiques](06.bonne\_pratiques.md)
-* [7 Section A Propos](07.balisage.md)
+* [7 Section Hero](07.balisage.md)
 * [8 Introduction CSS](08\_introduction\_css.md)
 * [9 Styles](09.styles.md)
 * [10 Layout CSS](10.mise\_en\_page.md)
@@ -32,10 +35,8 @@ Cour au format [https://drive.google.com/file/d/1h60gDGk0mRePBEeliwqEwPRyaL7kAgP
 * [14 Position et transformation](14.postion\_transformation.md)
 * [15 Section expérience](15.experience.md)
 * [16 Graphiques, images et vidéos](16.images\_videos.md)
-* [17 Section Carrière](17.carriere.md)
 * [18 Pseudo classes et pseudo éléments](18.pseudo\_classes.md)
 * [19 Outils pour les développeurs](19.outils.md)
-* [20 Pages internes](20.page.md)
 * [21 Transitions & Animations](21.transitions\_animations.md)
 * [22 Section Contact](22.contact.md)
 * [23 Pied de page](23.pied.md)
