@@ -1,4 +1,6 @@
 
+# Structure HTML et CSS d'un Portfolio
+
 ```html
 <!DOCTYPE html>
 <html lang="fr">
@@ -109,6 +111,20 @@
 ## Structure de base
 
 Dans ce document HTML, plusieurs sections et éléments sont utilisés pour structurer un site web, typiquement un portfolio. Voici une explication détaillée pour chacune des parties principales du document :
+
+### Structure des fichiers
+```md
+portfolio
+├── css
+│   ├── styles.css
+│   ├── utilities.css
+│   ├── responsive.css
+├── images
+│   ├── logo.png
+│   ├── portrait.png
+│   └── etc..
+└─- index.html
+```
 
 ### 1. Document Type Declaration (Doctype)
 ```html
