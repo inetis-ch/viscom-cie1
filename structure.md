@@ -679,6 +679,37 @@ La section "hero", souvent appelée la bannière ou "hero image", est essentiell
 
 #### Code CSS
 
+```css
+@media (max-width: 767px) {
+
+    header .right {
+        display: none;
+    }
+
+    #hero {
+        flex-direction: column-reverse;
+    }
+
+    #hero .left {
+        padding-top: 2rem;
+        /* padding inversé à cause du colomn reverse */
+    }
+
+    #about .container {
+        flex-direction: column;
+    }
+
+    main #services .card-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* 3 colonnes de largeur égale */
+        row-gap: 3rem;
+        /* espace entre les colonnes */
+    }
+}
+```
+
+
 {% code lineNumbers="true" %}
 ```css
 /*services section*/
